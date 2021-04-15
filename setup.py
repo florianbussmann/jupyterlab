@@ -145,7 +145,7 @@ setup_args['install_requires'] = [
     'ipython',
     'packaging',
     'tornado>=6.1.0',
-    'jupyter_core',
+    'jupyter_core @ git+https://github.com/florianbussmann/jupyter_core@windows-store-fix#egg=jupyter_core',
     'jupyter_packaging~=0.7',
     'jupyterlab_server~=2.3',
     'jupyter_server~=1.4',
